@@ -1,0 +1,7 @@
+---
+# tasks file for managerclonerepo
+
+- name: Clone git repo
+  git:
+    repo: https://github.com/nasirshariff619/project-2.git
+    dest: /home/user/project-2

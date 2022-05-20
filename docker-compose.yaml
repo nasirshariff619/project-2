@@ -1,0 +1,34 @@
+version: '3.8'
+services:
+  service1:
+    image: nasirshariff619/service1:latest
+    container_name: service1
+    build: ./S1
+    ports:
+    - target: 5000
+      published: 5000
+      protocol: tcp
+  service2:
+    image: nasirshariff619/service2:latest
+    container_name: service2
+    build: ./S2
+    ports:
+    - target: 5001
+      published: 5001
+      protocol: tcp
+  service3:
+    image: nasirshariff619/service3:latest
+    container_name: service3
+    build: ./S3
+    ports:
+    - target: 5002
+      published: 5002
+      protocol: tcp
+  service4:
+    image: nasirshariff619/service4:latest
+    container_name: service4
+    build: ./S4
+    ports:
+    - target: 5003
+      published: 5003
+      protocol: tcp
