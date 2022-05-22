@@ -40,6 +40,7 @@
 This project used 3 GCP virtual machines which were designed as follows:
 
 ![vm](https://user-images.githubusercontent.com/101716216/169696077-318cff1b-8d27-46ea-bbf8-857ceb6260c5.jpg)
+
 The main virtual machine (VM) was used to develop the application and set up Ansible, Docker Swarm and Nginx.
 
 
