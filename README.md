@@ -102,8 +102,11 @@ Service 4 pytest output:
 
 ## Front-End Design <a name="Front-End Design "></a>
 When accessing the application, you are given a random country, random food and task based on the two random generated pieces of information. A few snapshots of the website are shown below:
+
 ![image](https://user-images.githubusercontent.com/101716216/169700094-7d2043c8-b3a0-4e95-a71d-8cdedbab4d1f.png)
+
 ![image](https://user-images.githubusercontent.com/101716216/169700125-737d9d75-7e06-4d7b-97dd-05407a30b2af.png)
+
 ![image](https://user-images.githubusercontent.com/101716216/169700158-3c16361a-3215-4bfe-845b-900dfe9d9039.png)
 
 
@@ -121,7 +124,9 @@ My attempt at getting the jenkins script to run can be seen below:
 The jenkins script used is as follows:
 
 ![image](https://user-images.githubusercontent.com/101716216/169701542-fafc8ed6-ad27-4683-b79d-e66041a8afa7.png)
+
 ![image](https://user-images.githubusercontent.com/101716216/169701560-cf703d86-30ab-4d22-a931-6d8e6200cb05.png)
+
 ![image](https://user-images.githubusercontent.com/101716216/169701586-d258f88a-0a83-42f1-ba04-59ccde96cc13.png)
 
 
