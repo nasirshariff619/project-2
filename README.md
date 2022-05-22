@@ -63,8 +63,11 @@ As learnt in training, when working on a software project, it is good practise t
 
 The overall tracking of the project was carried out on a kanban board website known as Jira.
 The kanban board was used to add tasks to and track their progress. The initial kanban board looked as follows:
+
 ![image](https://user-images.githubusercontent.com/101716216/169698171-3c419339-4dd2-4452-9ff7-e1e186e2f030.png)
+
 This kanban board was updated with new tasks and other tasks were processed by stage until they were completed. The updated kanban board looked as follows:
+
 ![image](https://user-images.githubusercontent.com/101716216/169698338-877b9431-c90a-4c3f-8478-8f1e018f3983.png)
 
 
