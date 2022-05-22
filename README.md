@@ -40,39 +40,74 @@ The following depicts the desired continuous integration (CI) pipeline:
 
 As learnt in training, when working on a software project, it is good practise to implement the feature branch model. This meant that work carried out on the project was done on a development branch, which meant that the code was tested and deployed from this branch before it was merged into the main branch.
 
-image
+*****image********
 
 ## Project Tracking <a name="Project Tracking"></a>
 
-The overall tracking of the project was carried out on a kanban board website known as Trello.
+The overall tracking of the project was carried out on a kanban board website known as Jira.
+The kanban board was used to add tasks to and track their progress. The initial kanban board looked as follows:
+![image](https://user-images.githubusercontent.com/101716216/169698171-3c419339-4dd2-4452-9ff7-e1e186e2f030.png)
+This kanban board was updated with new tasks and other tasks were processed by stage until they were completed. The updated kanban board looked as follows:
+![image](https://user-images.githubusercontent.com/101716216/169698338-877b9431-c90a-4c3f-8478-8f1e018f3983.png)
+
 
 
 
 
 ## Risk Assessment <a name="Risk Assessment"></a>
 
-The image below shows a quick screenshot of the risk assessment, which was used to assess and analyse the risks that could arise from this project. Here is a link to the full risk assessment:
+The image below shows a quick screenshot of the risk assessment, which was used to assess and analyse the risks that could arise from this project. As the project development continued, the risk assessment was also updated, which was tracked by the added. Here is a link to the full risk assessment:
+https://docs.google.com/spreadsheets/d/1VV1P8t2pfBq8ljTdY-ddTQVFnFJPgFQ8/edit?usp=sharing&ouid=109921713876439168912&rtpof=true&sd=true
 
 ## Testing <a name="Testing"></a>
 
-Unit testing was carried out on the application. This was done using pytest and pytest coverage and shown by the output below:
+Unit testing was carried out on each service in the application. This was done using pytest and pytest coverage.
+
+Service 1 pytest output:
+![image](https://user-images.githubusercontent.com/101716216/169699388-7d22f195-82f2-44c4-aede-2ecda00c5dd0.png)
+
+Service 2 pytest output:
+![image](https://user-images.githubusercontent.com/101716216/169699547-3471ade9-d240-40d4-a800-7537815b3767.png)
+
+Service 3 pytest output:
+![image](https://user-images.githubusercontent.com/101716216/169699907-2b315170-be18-4391-8895-03ef8d742807.png)
+
+Service 4 pytest output:
+![image](https://user-images.githubusercontent.com/101716216/169699945-2f7f55d0-f4d4-481d-99ab-3fddabdff64e.png)
+
 
 
 
 
 
 ## Front-End Design <a name="Front-End Design "></a>
+When accessing the application, you are given a random country, random food and task based on the two random generated pieces of information. A few snapshots of the website are shown below:
+![image](https://user-images.githubusercontent.com/101716216/169700094-7d2043c8-b3a0-4e95-a71d-8cdedbab4d1f.png)
+![image](https://user-images.githubusercontent.com/101716216/169700125-737d9d75-7e06-4d7b-97dd-05407a30b2af.png)
+![image](https://user-images.githubusercontent.com/101716216/169700158-3c16361a-3215-4bfe-845b-900dfe9d9039.png)
+
 
 
 
 
 ## Future improvements <a name="Future Improvements"></a>
 
+Following the requirements set out by the project specification, I was able to implement most tools required. However, eventhough jenkins was able to clone the repositry and install the requirements, due to errors and time constraints, I was unsuccessful at getting the jenkins script to test, build and build & deply the application. Therefore I was required to use a method of continuous delivery to manually build and deploy the application using docker-compose and ansible.
+
+My attempt at getting the jenkins script to run can be seen below:
+
+![image](https://user-images.githubusercontent.com/101716216/169701389-e6b8c010-f22f-4437-a63c-c8ae51cd1b9d.png)
+
+The jenkins script used is as follows:
+
+![image](https://user-images.githubusercontent.com/101716216/169701542-fafc8ed6-ad27-4683-b79d-e66041a8afa7.png)
+![image](https://user-images.githubusercontent.com/101716216/169701560-cf703d86-30ab-4d22-a931-6d8e6200cb05.png)
+![image](https://user-images.githubusercontent.com/101716216/169701586-d258f88a-0a83-42f1-ba04-59ccde96cc13.png)
 
 
 ## Acknowledgements <a name="Acknowledgements"></a>
 
-I would like to give thanks to the QA trainers that have taught me over _______, providing the learning required to complete this project. I also give thanks to my fellow QA trainees for making the learning experience pleasant and providing help when I needed it.
+I would like to give thanks to the QA trainers that have taught me over the second portion of training, providing the learning required to complete this project. I also give thanks to my fellow QA trainees for making the learning experience pleasant and providing help when I needed it.
 
 ## Licensing <a name="Licensing"></a>
 This app will be licensed with the Apache License 2.0. Under this license, the users are allowed to:
