@@ -1,6 +1,21 @@
 # project-2
 
 ## Contents
+*   [Brief](#brief-a-name"brief"a)
+    *   [My Approach](#my-approach-a-name"my-approach"a)
+*   [Design](#design-a-name"design"a)
+    *   [Virtual Machine Setup](#virtual-machine-setup-a-name"virtual-machine-setup"a)
+    *   [CI Pipeline](#ci-pipeline-a-name"ci-pipeline"a)
+    *   [Feature Branch Model](#feature-branch-model-a-name"feature-branch-model"a)
+*   [Project Tracking](#project-tracking-a-name"project-tracking"a)
+*   [Risk Asessment](#risk-assessment-a-name"risk-assessment"a)
+*   [Testing](#testing-a-name"testing"a)
+*   [Front-End Design](#front-end-design-a-name"front-end-design-"a)
+*   [Future Improvements](#future-improvements-a-name"future-improvements"a)
+*   [Acknowledgements](#acknowledgements-a-name"acknowledgements"a)
+*   [Licensing](#licensing-a-name"licensing"a)
+*   [Presentation](#presentation-a-name"presentation"a)
+*    [Author](#author-a-name"author"a)
 
 
 
@@ -136,6 +151,7 @@ limitations under the License.
 ## Presentation <a name="Presentation"></a>
 
 Here is a link to the video presentation:
+https://drive.google.com/file/d/1umnzxQQSvsj6fuzIgM-_vz7xeaqnoVc8/view?usp=sharing
 
 
 
