@@ -30,7 +30,7 @@
  Considering all this information, I have decided on creating a random holiday task generator. 
  The back-end of this app consists of 4 services which interact with eachother.
 
- Service 1 is responsible of communicating with all the other 3 services. Service 2 and 3 are both responsible with generating a random object from a list, for example, service 2 generates a random country and service 3 generates a random food. Service 1 gets this information from service 2 and 3 and posts it to service 4. Service 4 then geneartes a task based on the information from service 2 and 3.
+ Service 1 is responsible of communicating with all the other 3 services. Service 2 and 3 are both responsible with generating a random object from a list, for example, service 2 generates a random country and service 3 generates a random food. Service 1 gets this information from service 2 and 3 and posts it to service 4. Service 4 then generates a task based on the information sent by service 1 from service 2 and 3.
 
 
 ## Design <a name="Design"></a>
