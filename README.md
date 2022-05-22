@@ -76,7 +76,11 @@ This kanban board was updated with new tasks and other tasks were processed by s
 
 ## Risk Assessment <a name="Risk Assessment"></a>
 
-The image below shows a quick screenshot of the risk assessment, which was used to assess and analyse the risks that could arise from this project. As the project development continued, the risk assessment was also updated, which was tracked by the "date added" column. Here is a link to the full risk assessment:
+The image below shows a quick screenshot of the risk assessment, which was used to assess and analyse the risks that could arise from this project: 
+
+![image](https://user-images.githubusercontent.com/101716216/169704308-82c37312-74f3-464d-9c4e-ef07db52eeef.png)
+
+As the project development continued, the risk assessment was also updated, which was tracked by the "date added" column. Here is a link to the full risk assessment:
 https://docs.google.com/spreadsheets/d/1VV1P8t2pfBq8ljTdY-ddTQVFnFJPgFQ8/edit?usp=sharing&ouid=109921713876439168912&rtpof=true&sd=true
 
 ## Testing <a name="Testing"></a>
