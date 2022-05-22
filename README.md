@@ -20,11 +20,19 @@
 
 ## Design <a name="Design"></a>
 
-### Database Structure <a name="Database Structure"></a>
+### Virtual Machine Setup <a name="Virtual Machine Setup"></a>
+
+This project used 3 GCP virtual machines which were designed as follows:
+![vm](https://user-images.githubusercontent.com/101716216/169696077-318cff1b-8d27-46ea-bbf8-857ceb6260c5.jpg)
+The main virtual machine (VM) was used to develop the application and set up Ansible, Docker Swarm and Nginx.
 
 
 
 ### CI Pipeline <a name="CI Pipeline"></a>
+
+The following depicts the desired continuous integration (CI) pipeline:
+![ci](https://user-images.githubusercontent.com/101716216/169697193-1c03f9f1-6040-40f4-966b-f56f7d738e34.jpg)
+
 
 
 
