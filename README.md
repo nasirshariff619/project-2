@@ -57,7 +57,7 @@ The following depicts the desired continuous integration (CI) pipeline:
 
 As learnt in training, when working on a software project, it is good practise to implement the feature branch model. This meant that work carried out on the project was done on a development branch, which meant that the code was tested and deployed from this branch before it was merged into the main branch.
 
-*****image********
+![image](https://user-images.githubusercontent.com/101716216/169703718-ca16e5ea-9d6e-4784-b2e1-e582ce5d97ef.png)
 
 ## Project Tracking <a name="Project Tracking"></a>
 
